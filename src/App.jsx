@@ -1,5 +1,9 @@
-const App = () => {
-	return <></>;
-};
+import { Sidebar } from "./components/Sidebar/Sidebar";
 
-export default App;
+export const App = () => {
+	return (
+		<>
+			<Sidebar />
+		</>
+	);
+};
