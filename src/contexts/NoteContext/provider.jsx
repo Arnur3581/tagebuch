@@ -1,5 +1,5 @@
 import { NoteContext } from "./context";
-import { useLocalStorage } from "../../hooks/useLocalStorage";
+import { useLocalStorage } from "@/hooks/useLocalStorage";
 
 export const NoteContextProvider = () => {
 	const [notes, setNotes] = useLocalStorage("notes", []);
